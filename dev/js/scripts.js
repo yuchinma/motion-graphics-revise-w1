@@ -34,7 +34,7 @@ RedBoxTL
     .to("#red-box", {duartion: .05, rotate: 5})
     .to("#red-box", {duartion: .05, rotate: 0})
     .to("#red-box", {duration: .05, y: 600, scaleX: 1.5, scaleY: .5})
-    .to("#red-box", {duration: .05, backgroundColor: "#80e08d"})
+    .to("#red-box", {duration: .05, backgroundColor: "#07da93"})
     .to("#red-box", {duration: .2, y: 100, scaleX: .75, scale: 2})
     .to("#red-box", {duration: .2, y: 200, scaleX: 1.2, scaleY: .75})
     .to("#red-box", {duration: .05, y: 150, scaleX: 1, scaleY: 1})
