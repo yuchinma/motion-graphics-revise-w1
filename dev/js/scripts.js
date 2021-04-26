@@ -48,9 +48,9 @@ RedBoxTL
     .to("#red-box", {duration: 1, scale: 1, borderRadius: "100%", x: 600})
     .to("#red-box", {duration: .05, backgroundColor: "#fab6e5"}, "-=0.4")
 
-// Fall down, bounce, roll away
+// Fall down, bounce, turn yellow, roll away
     .to("#red-box", {duration: .5, scaleX: 1.1, scaleY: .9, y: 200})
-    .to("#red-box", {duration: .5, scaleX: .5, scaleY: 2, y: 50})
+    .to("#red-box", {duration: .5, scaleX: .5, scaleY: 2, y: 10})
     .to("#red-box", {duration: .5, scaleX: 2, scaleY: .5, y: 600})
     .to("#red-box", {duration: .5, scaleX: .8, scaleY: 1.2, y: 400})
     .to("#red-box", {duration: .5, scaleX: 1.2, scaleY: .8, y: 600})
