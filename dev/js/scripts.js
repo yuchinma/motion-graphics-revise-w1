@@ -27,7 +27,7 @@ RedBoxTL
     .to("#red-box", {duration: .05, y: 580, scaleX: 1.5, scaleY: .75})
     .to("#red-box", {duration: .05, y: 560, scaleX: 1, scaleY: 1})
 
-// Shake, squeeze, turn green
+// Shake, squeeze, turn green, scale up
     .to("#red-box", {duartion: .05, rotate: -5, delay: .5})
     .to("#red-box", {duartion: .05, rotate: 5})
     .to("#red-box", {duartion: .05, rotate: -5})
@@ -39,3 +39,21 @@ RedBoxTL
     .to("#red-box", {duration: .2, y: 200, scaleX: 1.2, scaleY: .75})
     .to("#red-box", {duration: .05, y: 150, scaleX: 1, scaleY: 1})
     .to("#red-box", {duration: .1, y: 170})
+    .to("#red-box", {duration: 1, scale: 20})
+
+// Scale down, turn purple, scale up, turn pink circle
+    .to("#red-box", {duration: 1, scaleX: 2, scaleY: 1, x: 200})
+    .to("#red-box", {duration: .05, backgroundColor: "#c795e6"}, "-=0.4")
+    .to("#red-box", {duration: .5, scale: 25})
+    .to("#red-box", {duration: 1, scale: 1, borderRadius: "100%", x: 600})
+    .to("#red-box", {duration: .05, backgroundColor: "#fab6e5"}, "-=0.4")
+
+// Fall down, bounce, roll away
+    .to("#red-box", {duration: .5, scaleX: 1.1, scaleY: .9, y: 200})
+    .to("#red-box", {duration: .5, scaleX: .5, scaleY: 2, y: 50})
+    .to("#red-box", {duration: .5, scaleX: 2, scaleY: .5, y: 600})
+    .to("#red-box", {duration: .5, scaleX: .8, scaleY: 1.2, y: 400})
+    .to("#red-box", {duration: .5, scaleX: 1.2, scaleY: .8, y: 600})
+    .to("#red-box", {duration: .5, scaleX: 1, scaleY: 1, y: 540})
+    .to("#red-box", {duration: .05, backgroundColor: "#ffeb7a"}, "-=0.4")
+    .to("#red-box", {duration: 2, rotate: 360, x: 10})
